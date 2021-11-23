@@ -1,7 +1,73 @@
 .App {
   text-align: center;
+  background-color: white;
+  height: 100vh;
 }
-
+.details {
+  margin: 0 1rem;
+  background-color: #e6edf7;
+}
+.margin-top-2 {
+  margin-top: 2rem;
+}
+.height-40 {
+  height: 40vh;
+}
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.align-left-text {
+  text-align: left;
+}
+.align-right-text {
+  text-align: right;
+}
+.color-account-text {
+  color: #32cfdf;
+}
+.background-back {
+  background-color: #3f48cc;
+  text-align: left;
+}
+.button-back {
+  background-color: white;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.oblique-bold {
+  font-weight: 600;
+  font-style: oblique;
+}
+.uppercase {
+  text-transform: lowercase;
+}
+.uppercase::first-letter {
+  text-transform: capitalize;
+}
+.color-title-accounts {
+  color: #898b8d;
+}
+.margin-bottom-2rem {
+  margin-bottom: 2rem;
+}
+.cursor {
+  cursor: pointer;
+}
+.span-style {
+  font-size: 16px;
+  font-weight: 300;
+}
+.font-size-13px {
+  font-size: 13px !important;
+}
+.margin-container-transactions {
+  margin: 1rem 0.5rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
